@@ -1,0 +1,80 @@
+# 2 - masala.
+
+# import PyQt5 as app
+# def on_button_bos():
+#     print(" BOSILDI")
+#
+# apple = app.Tk()
+#
+# button = app.Button(apple, text="Meni bos", command=on_button_bos)
+# button.pack()
+#
+# apple.mainloop()
+#
+#
+#
+# # 3 - masala.
+#
+# import PyQt5 as tk
+# class Button_hisoblaw:
+#     def __init__(self, apple):
+#         self.count = 0
+#         self.button = tk.Button(apple, text="Meni bos", command=self.on_button_bos)
+#         self.button.pack()
+#
+#     def on_button_bos(self):
+#         self.count += 1
+#         print("BOSILDI {}".format(self.count))
+#
+# apple = py.Tk()
+#
+# button_hisoblaw = Button_hisoblaw(apple)
+#
+# apple.mainloop()
+
+
+
+# 4 - masala.
+
+# import PyQt5 as tk
+#
+# class RecordLengthLineEdit(tk.LineEdit):
+#     def __init__(self, apple):
+#         super().__init__(apple)
+#
+#         self.record_length = 0
+#
+#         self.bind('<<KeyRelease>>', self.on_key_release)
+#
+#     def on_key_release(self, hodisa):
+#         self.record_length = len(self.get())
+#
+#         # Update the display
+#         self.update_display()
+#
+#     def update_display(self):
+#         self.config(text="Record length: {}".format(self.record_length))
+#
+# apple = py.Tk()
+#
+# record_length_lineEdit = RecordLengthLineEdit(apple)
+# record_length_lineEdit.pack()
+#
+# apple.mainloop()
+
+# 6 - masala:
+
+from PyQt5.QtWidgets import QPushButton, QApplication
+class MyButton(QPushButton):
+    def int(self):
+        super().init()
+    def ouseDoubleClickEvent(self, event):
+        print("Double-clicked")
+def solo():
+    print("Clicked")
+app = QApplication()
+btn = QPushButton()
+btn.mouseDoubleClickEvent(double)
+btn.clicked.connect(salo)
+btn.show()
+app.exec()
